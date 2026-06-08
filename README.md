@@ -25,22 +25,22 @@ The system follows these main steps:
 ## Project Screenshots
 
 ### User Interface
-![User Interface](images/ui_interface.png)
+![User Interface](./images/ui_interface.png)
 
 ### Model Performance Comparison
-![Model Performance Comparison](images/model_comparison.png)
+![Model Performance Comparison](./images/model_comparison.png)
 
 ### Best Model Result
-![Best Model Result](images/best_model_result.png)
+![Best Model Result](./images/best_model_result.png)
 
 ### Grad-CAM Explainability
-![Grad-CAM Result](images/gradcam_result.png)
+![Grad-CAM Result](./images/gradcam_result.png)
 
 ### Poster Preview
-![Poster Preview](images/poster_preview.png)
+![Poster Preview](./images/poster_preview.png)
 
 ### Brochure Preview
-![Brochure Preview](images/brochure_preview.png)
+![Brochure Preview](./images/brochure_preview.png)
 
 ## Best Model Performance
 
