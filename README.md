@@ -2,23 +2,25 @@
 
 ## Overview
 
-This project develops an AI-assisted pneumonia detection system using chest X-ray images. The system classifies images into **Normal** or **Pneumonia** and applies **Grad-CAM explainability** to show the image regions that influenced the prediction.
+This project focuses on developing a pneumonia detection system using chest X-ray images. The system is designed to classify an uploaded chest X-ray image as either **Normal** or **Pneumonia**. It also includes Grad-CAM visualization to show the image areas that influenced the prediction.
 
-This project compares three deep learning models: **Custom CNN, ResNet50, and EfficientNetB0**. EfficientNetB0 was selected as the best model due to its strong screening performance.
+Three deep learning models were developed and compared in this project: **Custom CNN, ResNet50, and EfficientNetB0**. Based on the overall performance, EfficientNetB0 was selected as the best model.
 
 ## Project Objectives
 
 1. To develop deep learning models for classifying chest X-ray images into Normal and Pneumonia classes.
-2. To compare Custom CNN, ResNet50, and EfficientNetB0 using accuracy, precision, recall, F1-score, and AUC.
-3. To apply Grad-CAM to visualize the regions that influence the model prediction.
+2. To compare the performance of Custom CNN, ResNet50, and EfficientNetB0.
+3. To use Grad-CAM to provide visual explanation for the model prediction.
 
 ## System Workflow
 
-1. Upload chest X-ray image
-2. Pre-process image
-3. Classify image using deep learning model
-4. Display prediction result
-5. Generate Grad-CAM heatmap for explainability
+The system follows these main steps:
+
+1. A chest X-ray image is uploaded.
+2. The image is resized and pre-processed.
+3. The trained model classifies the image.
+4. The system displays the prediction result.
+5. Grad-CAM generates a heatmap to show the focused image region.
 
 ## Best Model Performance
 
@@ -31,11 +33,11 @@ This project compares three deep learning models: **Custom CNN, ResNet50, and Ef
 | AUC                  |                93.32% |
 | Final Score          |                0.8601 |
 
-## Why EfficientNetB0?
+## Model Selection
 
-EfficientNetB0 was selected because it achieved the strongest screening performance, especially in detecting pneumonia cases. Its high recall helps reduce missed pneumonia cases, which is important for medical screening.
+EfficientNetB0 was chosen as the best model because it achieved the strongest overall screening performance. The model recorded a high recall value of **94.0%**, which is important because it means fewer pneumonia cases were missed.
 
-## Tools and Technologies
+## Tools Used
 
 * Python
 * TensorFlow / Keras
@@ -46,18 +48,18 @@ EfficientNetB0 was selected because it achieved the strongest screening performa
 
 ## Dataset
 
-This project uses the Chest X-Ray Images (Pneumonia) dataset from Kaggle. The dataset contains two classes:
+The project used the **Chest X-Ray Images (Pneumonia)** dataset from Kaggle. The dataset contains two image classes:
 
 * Normal
 * Pneumonia
 
-## Application Potential
+## Application
 
-This system has potential as an AI-assisted pneumonia screening support tool for clinics, hospitals, and low-resource healthcare settings. It can support early screening by providing prediction results with visual heatmap explanation.
+This project can be used as a basic screening support system for pneumonia detection from chest X-ray images. It may be useful for educational, research, or early prototype development related to medical image analysis.
 
 ## Disclaimer
 
-This project is a research prototype for educational and diagnostic support purposes only. It is not a replacement for professional medical diagnosis.
+This project is developed for academic and research purposes only. It is not intended to replace professional medical diagnosis.
 
 ## Developed By
 
