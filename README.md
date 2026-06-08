@@ -22,6 +22,26 @@ The system follows these main steps:
 4. The system displays the prediction result.
 5. Grad-CAM generates a heatmap to show the focused image region.
 
+## Project Screenshots
+
+### User Interface
+![User Interface](images/ui_interface.png)
+
+### Model Performance Comparison
+![Model Performance Comparison](images/model_comparison.png)
+
+### Best Model Result
+![Best Model Result](images/best_model_result.png)
+
+### Grad-CAM Explainability
+![Grad-CAM Result](images/gradcam_result.png)
+
+### Poster Preview
+![Poster Preview](images/poster_preview.png)
+
+### Brochure Preview
+![Brochure Preview](images/brochure_preview.png)
+
 ## Best Model Performance
 
 | Metric               | EfficientNetB0 Result |
